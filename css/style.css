@@ -10,6 +10,7 @@
 
 /* Global Estilos */
 @import './global/global.css';
+@import './global/banner-animado.css';
 
 /* Home Estilos */
 @import './home/header.css';
