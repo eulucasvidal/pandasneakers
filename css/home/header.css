@@ -1,0 +1,36 @@
+.banner{
+    background: linear-gradient(to left, #A5F5D8,#CAF3BA,#F6F096);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 50px;
+}
+.banner-txt{
+    padding: 0 2rem;
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    animation: banner-animado 6000ms linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    color: var(--cor-p2);
+}
+.banner-txt::before{
+    content: '';
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    background: currentColor;
+}
+@keyframes banner-animado{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

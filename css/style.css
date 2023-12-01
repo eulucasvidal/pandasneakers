@@ -1,0 +1,21 @@
+/* Assets Estilos */
+@import './assets/utilidades/componentes.css';
+@import './assets/utilidades/cores.css';
+@import './assets/utilidades/tipografia.css';
+@import './assets/utilidades/texto-infinito.css';
+
+/*Assets Botoes */
+@import './assets/botoes/menu-mobile.css';
+
+
+/* Global Estilos */
+@import './global/global.css';
+
+/* Home Estilos */
+@import './home/header.css';
+@import './home/intro.css';
+@import './home/sobre.css';
+@import './home/projetos.css';
+@import './home/formacao.css';
+@import './home/contato.css';
+@import './home/footer.css';
