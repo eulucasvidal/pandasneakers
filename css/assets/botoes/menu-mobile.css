@@ -1,0 +1,33 @@
+.btn-menu{
+    border: none;
+    background: none;
+    font: 600 6.8rem/1.2 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: .8s;
+}
+.btn-menu-hamburguer{
+    background:var(--cor-p2) ;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-menu-hamburguer::after,
+.btn-menu-hamburguer::before{
+    content: '';
+    display: block;
+    margin: 5px;
+    height: 2px;
+    width: 20px;
+    background:var(--cor-p1) ;
+}
+.menu{
+    padding: 30px;
+}
+@media(max-width:1200px){
+    .btn-menu{
+        font-size: 0rem;
+    }
+}
