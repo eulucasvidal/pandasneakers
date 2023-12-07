@@ -1,30 +1,37 @@
-.font-xs,
-.font-xs-b{
+.font1-xs,
+.font1-xs-b{
     font: 400 0.875rem/1.2 'Inter', sans-serif;
 }
-.font-xs-b{
+.font1-xs-b{
     font-weight: 600;
 }
-.font-x{
+.font1-x{
     font: 400 1rem/1.2 'Inter', sans-serif;
 }
-.font-m,
-.font-m-b{
+.font1-m,
+.font1-m-b{
     font: 400 1.125rem/1.2 'Inter', sans-serif;
 }
-.font-m-b{
+.font1-m-b{
     font-weight: 600;
 }
-.font-l{
+.font1-l{
     font: 400 2rem/1.2 'Inter', sans-serif;
 }
-.font-xl,
-.font-xl-b{
+.font1-xl,
+.font1-xl-b{
     font: 400 2.25rem/1.2 'Inter', sans-serif;
 }
-.font-xl-b{
+.font1-xl-b{
     font-weight: 600;
 }
-.font-xxl{
+.font1-xxl{
     font: 600 4rem/1.2 'Inter', sans-serif;
+}
+
+.font2-xs{
+    font: 400 0.675rem/1.2 'Gemunu Libre', sans-serif;
+}
+.font2-xl{
+    font: 400 3rem/1.2 'Gemunu Libre', sans-serif;
 }

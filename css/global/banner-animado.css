@@ -1,37 +1,39 @@
-.banner{
-    background: linear-gradient(to left, #A5F5D8,#CAF3BA,#F6F096);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    overflow: hidden;
-    white-space: nowrap;
-    height: 50px;
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
 }
-.banner-txt{
-    padding: 0 2rem;
-    font-size: 0.675rem;
-    font-family:'Inter', sans-serif;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    animation: banner-animado 6000ms linear infinite;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
-    color: var(--cor-p2);
+.banner-txt-infinite {
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  overflow: hidden;
 }
-.banner-txt::before{
-    content: '';
-    width:4px;
-    height:4px;
-    border-radius: 50%;
-    background: currentColor;
+.banner-txt {
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  white-space: nowrap;
+  padding: 0 2rem;
+  gap: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  animation: banner-animado 6000ms linear infinite;
 }
-@keyframes banner-animado{
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(100%);
-    }
+.banner-txt::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: currentColor;
+}
+@keyframes banner-animado {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
