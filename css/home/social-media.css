@@ -1,0 +1,11 @@
+.social-midia-page{
+  display: flex;
+  align-items: center;
+  height: 200px;
+  justify-content: space-around;
+  background: var(--cor-p2);
+}
+.social-midia{
+  display: flex;
+  gap: 30px;
+}
