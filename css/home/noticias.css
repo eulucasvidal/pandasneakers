@@ -1,0 +1,15 @@
+.noticias{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.noticias-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+}
+.noticias-txt{
+  display: flex;
+  flex-direction: column;
+  gap:20px ;
+}

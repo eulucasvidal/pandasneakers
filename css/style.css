@@ -6,6 +6,7 @@
 
 /*Assets Botoes */
 @import './assets/botoes/menu-mobile.css';
+@import './assets/botoes/btn-saibamais.css';
 
 
 /* Global Estilos */
@@ -13,10 +14,10 @@
 @import './global/banner-animado.css';
 
 /* Home Estilos */
-@import './home/header.css';
-@import './home/lancamentos.css';
-@import './home/sobre.css';
-@import './home/projetos.css';
-@import './home/formacao.css';
-@import './home/contato.css';
+@import './home/introducao.css';
+@import './home/novidades.css';
+@import './home/destaques.css';
+@import './home/marcas.css';
+@import './home/noticias.css';
+@import './home/membros.css';
 @import './home/footer.css';

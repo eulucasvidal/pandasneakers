@@ -1,0 +1,10 @@
+.btn-saiba-mais{
+  text-transform: uppercase;
+  width: max-content;
+  padding: 8px 16px;
+  border: none;
+  background: var(--cor-s1);
+  color: var(--cor-p1);
+  font: 400 0.8rem/1.2 'Gemunu Libre', sans-serif;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.membros{
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+.membros-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.membros-itens{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  height: 300px;
+  width: 380px;
+  color: var(--cor-p1);
+  background: var(--cor-p2);
+}
+.membros-info{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.membros-info img{
+  width: min-content;
+}
+.membros-info div{
+  display: flex;
+  flex-direction: column;
+}
+
+.membros-redes-sociais{
+  display: flex;
+  gap: 25px;
+}

@@ -1,0 +1,27 @@
+.novidades{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-around;
+  gap: 10px;
+  padding:40px 0px;
+}
+.novidades-container-items{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.novidades-items{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--cor-p2);
+  cursor: pointer;
+}
+@media(max-width:1000px){
+  .novidades{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

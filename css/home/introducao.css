@@ -1,4 +1,4 @@
-.lancamentos {
+.introducao {
   display: grid;
   grid-template-columns: 2fr 0.7fr;
   gap: 30px;
@@ -24,11 +24,11 @@
   padding: 30px;
   gap: 10px;
 }
-.lancamentos button {
+.introducao button {
   display: none;
 }
 @media (max-width: 900px) {
-  .lancamentos {
+  .introducao {
     grid-template-columns: 1fr;
   }
   .item-2,
@@ -36,7 +36,7 @@
     display: none;
     transition: .6s;
   }
-  .lancamentos button {
+  .introducao button {
     display: block;
   }
 }
