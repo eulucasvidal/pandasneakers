@@ -1,0 +1,25 @@
+.cultura{
+  background: var(--cor-p2);
+}
+.cultura h2{
+  max-width: 15ch;
+  padding: 30px;
+  color: var(--cor-p1);
+}
+.cultura-conteudo{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 100px;
+  padding:0px 30px;
+  box-shadow:inset 0 -80px var(--cor-p1);
+  
+}
+.cultura-conteudo-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: var(--cor-p1);
+}
+.cultura-conteudo-txt div > p {
+  max-width: 60ch;
+}
