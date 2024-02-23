@@ -1,0 +1,47 @@
+.tenis-container-item{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  gap: 20px;
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+  background-size: 500% 100%;
+  animation: gradient-animado 4s infinite alternate;
+}
+@keyframes gradient-animado {
+0% {
+  background-position-x: 0%;
+}
+50% {
+  background-position-x: 50%;
+}
+100% {
+  background-position-x: 100%;
+}
+}
+.tenis-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.tenis-logo{
+  max-width: max-content;
+  padding: 20px;
+  position: absolute;
+}
+.tenis-container-spans{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  border-top:1px solid black;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.tenis-btn{
+  font: 400 0.625rem/1.2 "Inter", sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid black;
+  padding: 4px;
+}

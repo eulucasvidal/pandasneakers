@@ -1,37 +1,36 @@
-.font1-xs,
-.font1-xs-b{
-    font: 400 0.875rem/1.2 'Inter', sans-serif;
+.font1-xs{
+  font: 400 0.625rem/1.2 "Inter", sans-serif;
 }
-.font1-xs-b{
-    font-weight: 600;
+.font1-x-b{
+  font: 600 0.875rem/1.2 "Inter", sans-serif;
 }
-.font1-x{
-    font: 400 1rem/1.2 'Inter', sans-serif;
+.font1-m{
+  font: 400 1rem/1.2 "Inter", sans-serif;
 }
-.font1-m,
-.font1-m-b{
-    font: 400 1.125rem/1.2 'Inter', sans-serif;
+.font2-m-b{
+  font: 600 1.125rem/1.2 "Exo 2", sans-serif;
 }
-.font1-m-b{
-    font-weight: 600;
+.font2-l-b{
+    font: 600 2rem/1.2 "Exo 2", sans-serif;
 }
-.font1-l{
-    font: 400 2rem/1.2 'Inter', sans-serif;
+.font2-xl-b{
+    font: 600 2.25rem/1.2 "Exo 2", sans-serif;
 }
-.font1-xl,
-.font1-xl-b{
-    font: 400 2.25rem/1.2 'Inter', sans-serif;
+.font2-xxl-b{
+    font: 600 4rem/1.2 "Exo 2", sans-serif;
 }
-.font1-xl-b{
-    font-weight: 600;
+.font2-exl-b{
+    font: 600 8.75rem/1.2 "Exo 2", sans-serif;
 }
-.font1-xxl{
-    font: 600 4rem/1.2 'Inter', sans-serif;
+.font3-xs{
+    font: 400 0.875rem/1.2 "Archivo Black", sans-serif;
 }
-
-.font2-xs{
+.font3-m{
+    font: 400 1.125rem/1.2 "Archivo Black", sans-serif;
+}
+.font4-xs{
     font: 400 0.675rem/1.2 'Gemunu Libre', sans-serif;
 }
-.font2-xl{
+.font4-exl{
     font: 400 8.75rem/1.2 'Gemunu Libre', sans-serif;
 }

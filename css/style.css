@@ -12,6 +12,8 @@
 /* Global Estilos */
 @import './global/global.css';
 @import './global/banner-animado.css';
+@import './global/tenis-container.css';
+@import './global/footer.css';
 
 /* Home Estilos */
 @import './home/introducao.css';

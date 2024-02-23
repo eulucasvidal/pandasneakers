@@ -1,6 +1,6 @@
 .novidades{
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 2fr 1fr;
   justify-content: space-around;
   gap: 10px;
   padding:40px 0px;
