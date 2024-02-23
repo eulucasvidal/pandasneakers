@@ -1,4 +1,15 @@
 .destaques{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 20px;
+}
+.destaques-itens{
   display: flex;
-  gap: 40px;
+  gap: 20px;
+}
+@media(max-width:1000px){
+  .destaques-itens{
+    flex-direction: column;
+  }
 }
