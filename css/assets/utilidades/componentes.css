@@ -4,3 +4,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.titulo{
+    font: 600 4rem/1.2 "Exo 2", sans-serif;
+}
+@media(max-width:950px){
+    .titulo{
+        font-size: 3rem;
+    }
+}

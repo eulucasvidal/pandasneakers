@@ -37,3 +37,8 @@
   display: flex;
   gap: 30px;
 }
+@media(max-width:950px){
+  .footer-itens{
+    grid-template-columns: 1fr;
+  }
+}
