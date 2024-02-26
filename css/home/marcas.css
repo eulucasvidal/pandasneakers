@@ -1,5 +1,10 @@
+.marcas-banner{
+  animation: banner-animado 6000ms linear infinite;
+}
+
 .marcas{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 20px;
 }
