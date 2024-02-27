@@ -1,6 +1,6 @@
 .membros{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap:50px;
 }
 .membros-container{
@@ -15,8 +15,7 @@
   flex-direction: column;
   justify-content: space-around;
   gap: 15px;
-  height: 300px;
-  width: 380px;
+
   color: var(--cor-p1);
   background: var(--cor-p2);
 }
@@ -36,4 +35,9 @@
 .membros-redes-sociais{
   display: flex;
   gap: 25px;
+}
+@media(max-width:850px){
+  .membros{
+    flex-direction: column;
+  }
 }

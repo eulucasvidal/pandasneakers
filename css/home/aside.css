@@ -29,3 +29,13 @@
   font: 400 0.625rem/1.2 'Inter', sans-serif;
   text-align: center;
 }
+@media(max-width:850px){
+  .captura-cliente h2{
+    font-size: 6rem;
+  }
+}
+@media(max-width:650px){
+  .captura-cliente h2{
+    font-size: 4.5rem;
+  }
+}
