@@ -1,11 +1,23 @@
 .social-midia-page{
   display: flex;
   align-items: center;
-  height: 200px;
   justify-content: space-around;
+  height: 200px;
   background: var(--cor-p2);
+  padding: 30px;
+
 }
 .social-midia{
   display: flex;
   gap: 30px;
+}
+@media(max-width:1000px){
+  .social-midia-page{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .social-midia-page h3{
+    font-size: 2rem;
+    text-align: center;
+  }
 }

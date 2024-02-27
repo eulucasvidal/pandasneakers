@@ -4,8 +4,12 @@
 .font1-x-b{
   font: 600 0.875rem/1.2 "Inter", sans-serif;
 }
-.font1-m{
+.font1-m,
+.font1-m-b{
   font: 400 1rem/1.2 "Inter", sans-serif;
+}
+.font1-m-b{
+  font-weight: 600;
 }
 .font2-m-b{
   font: 600 1.125rem/1.2 "Exo 2", sans-serif;
